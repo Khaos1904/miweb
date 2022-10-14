@@ -8,9 +8,10 @@ public class HolaMundo {
         System.out.println("Modificación del archivo de seguimiento");
 
         int numeroUno =10, numeroDos = 20;
-        int suma = numeroDos + numeroUno;
+        int suma = numeroDos + numeroUno, resta = numeroDos-numeroUno;
 
         System.out.println("La suma es: "+ suma);
+        System.out.println("La resta es: "+resta);
     
     }
 }
