@@ -15,7 +15,7 @@ public class HolaMundo {
         System.out.println("La multiplación es : "+numeroUno*numeroDos);
         System.out.println("La división es : "+(numeroUno/numeroDos));
         System.out.println("Con la función suma es: " + funcionSumar(numeroUno,numeroDos));
-
+        System.out.println("Esta monda no funcionó");
         
     }
     
@@ -26,6 +26,6 @@ public class HolaMundo {
     }
     
     public HolaMundo(){
-        
+
     }
 }
