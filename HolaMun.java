@@ -12,6 +12,7 @@ public class HolaMundo {
 
         System.out.println("La suma es: "+ suma);
         System.out.println("La resta es: "+resta);
+        System.out.println("La multiplación es : "+numeroUno*numeroDos);
     
     }
 }
