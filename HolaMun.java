@@ -1,6 +1,6 @@
 public class HolaMundo {
 
-    public static void main (String args[]){
+       public static void main (String args[]){
 
 
         System.out.println("esta es solo una prueba de JAVA");
@@ -14,5 +14,18 @@ public class HolaMundo {
         System.out.println("La resta es: "+resta);
         System.out.println("La multiplación es : "+numeroUno*numeroDos);
         System.out.println("La división es : "+(numeroUno/numeroDos));
+        System.out.println("Con la función suma es: " + funcionSumar(numeroUno,numeroDos));
+
+        
+    }
+    
+    
+    static final int funcionSumar(int n, int m){
+        int sumar = n+m;
+        return sumar;
+    }
+    
+    public HolaMundo(){
+        
     }
 }
